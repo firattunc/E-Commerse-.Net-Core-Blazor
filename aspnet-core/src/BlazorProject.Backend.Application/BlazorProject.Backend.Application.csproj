@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <VersionPrefix>1.0.0.0</VersionPrefix>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <AssetTargetFallback>$(AssetTargetFallback);portable-net45+win8+wp8+wpa81;</AssetTargetFallback>
+    <AssemblyName>BlazorProject.Backend.Application</AssemblyName>
+    <PackageId>BlazorProject.Backend.Application</PackageId>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <RootNamespace>BlazorProject.Backend</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BlazorProject.Backend.Core\BlazorProject.Backend.Core.csproj" />
+    <ProjectReference Include="..\BlazorProject.Backend.EntityFrameworkCore\BlazorProject.Backend.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>
