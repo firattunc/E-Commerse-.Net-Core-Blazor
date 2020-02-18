@@ -1518,7 +1518,7 @@ namespace BlazorProject.Backend.Migrations
                     b.Property<string>("State")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<long?>("UserId")
+                    b.Property<long>("UserId")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
@@ -1816,7 +1816,9 @@ namespace BlazorProject.Backend.Migrations
                 {
                     b.HasOne("BlazorProject.Backend.Authorization.Users.User", "User")
                         .WithMany()
-                        .HasForeignKey("UserId");
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
                 });
 
             modelBuilder.Entity("BlazorProject.Backend.MultiTenancy.Tenant", b =>

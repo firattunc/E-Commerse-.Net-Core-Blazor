@@ -11,7 +11,7 @@ namespace BlazorProject.Backend.Authorization.Accounts
         // from: http://regexlib.com/REDetails.aspx?regexp_id=1923
         public const string PasswordRegex = "(?=^.{8,}$)(?=.*\\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\\s)[0-9a-zA-Z!@#$%^&*()]*$";
 
-        private readonly UserRegistrationManager _userRegistrationManager;
+        private readonly UserRegistrationManager _userRegistrationManager;        
 
         public AccountAppService(
             UserRegistrationManager userRegistrationManager)
@@ -47,7 +47,7 @@ namespace BlazorProject.Backend.Authorization.Accounts
             );
 
             var isEmailConfirmationRequiredForLogin = await SettingManager.GetSettingValueAsync<bool>(AbpZeroSettingNames.UserManagement.IsEmailConfirmationRequiredForLogin);
-
+            
             return new RegisterOutput
             {
                 CanLogin = user.IsActive && (user.IsEmailConfirmed || !isEmailConfirmationRequiredForLogin)

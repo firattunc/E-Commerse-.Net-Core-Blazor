@@ -16,5 +16,6 @@ namespace BlazorProject.Backend.Products.Dto
         public short UnitsInStock { get; set; }
         public string Colour { get; set; }
         public string ImgUrl { get; set; }
+        public string ColourId { get; set; }
     }
 }

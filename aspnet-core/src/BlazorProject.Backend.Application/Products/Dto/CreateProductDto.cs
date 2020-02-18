@@ -16,5 +16,6 @@ namespace BlazorProject.Backend.Products.Dto
         public string Colour { get; set; }
         public string ImgUrl { get; set; }
         public int CategoryId { get; set; }
+        public int ColourId { get; set; }
     }
 }

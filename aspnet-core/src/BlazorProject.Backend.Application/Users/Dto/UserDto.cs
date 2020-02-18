@@ -4,6 +4,7 @@ using Abp.Application.Services.Dto;
 using Abp.Authorization.Users;
 using Abp.AutoMapper;
 using BlazorProject.Backend.Authorization.Users;
+using BlazorProject.Backend.Entities;
 
 namespace BlazorProject.Backend.Users.Dto
 {
