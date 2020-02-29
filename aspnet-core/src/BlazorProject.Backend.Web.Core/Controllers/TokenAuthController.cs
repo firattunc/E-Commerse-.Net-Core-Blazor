@@ -51,7 +51,7 @@ namespace BlazorProject.Backend.Controllers
 
         [HttpPost]
         public async Task<AuthenticateResultModel> Authenticate([FromBody] AuthenticateModel model)
-        {
+        {            
             var loginResult = await GetLoginResultAsync(
                 model.UserNameOrEmailAddress,
                 model.Password,

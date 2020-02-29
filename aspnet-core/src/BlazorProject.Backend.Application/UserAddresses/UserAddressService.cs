@@ -9,17 +9,15 @@ using System.Threading.Tasks;
 
 namespace BlazorProject.Backend.UserAddresses
 {
-    public class UserAddressService: ApplicationService, IUserAddressService
+    public class UserAddressService: AsyncCrudAppService<UserAddress,UserAddressDto, int, CreateUserAddressDto, PagedUserAddressResultRequestDto, UserAddressDto>, IUserAddressService
     {
-        private readonly IRepository<UserAddress> _userAddressRepository;
-        public UserAddressService(IRepository<UserAddress> userAddressRepository)
+        public UserAddressService(IRepository<UserAddress, int> repository) : base(repository)
         {
-            _userAddressRepository = userAddressRepository;
         }
 
         public async Task<UserAddressDto> GetByUserId(long id)
         {
-            var address =await _userAddressRepository.FirstOrDefaultAsync(x => x.UserId==id);
+            var address =await Repository.FirstOrDefaultAsync(x => x.UserId==id);
             return ObjectMapper.Map<UserAddressDto>(address);
         }
     }

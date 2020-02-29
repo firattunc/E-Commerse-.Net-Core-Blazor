@@ -26,7 +26,7 @@ namespace BlazorProject.Backend.Orders
             {
                 orderId = await Repository.InsertAndGetIdAsync(order);
             }
-            catch (Exception)
+            catch (Exception ex)
             {
 
                 throw;

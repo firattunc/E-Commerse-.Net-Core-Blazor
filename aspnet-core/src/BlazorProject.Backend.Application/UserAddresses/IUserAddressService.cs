@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BlazorProject.Backend.UserAddresses
 {
-    public interface IUserAddressService: IApplicationService
+    public interface IUserAddressService: IAsyncCrudAppService<UserAddressDto,int,CreateUserAddressDto,PagedUserAddressResultRequestDto,UserAddressDto>
     {
         Task<UserAddressDto> GetByUserId(long id);
     }
