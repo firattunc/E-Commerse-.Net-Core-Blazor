@@ -1,0 +1,153 @@
+﻿@page "/productdetail/{ProductId}"
+@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@inject ICategoryService CategoryService
+@inject IProductService  ProductService
+@inject NavigationManager NavigationManager
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- breadcrumb-->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><NavLink href="/">Home</NavLink></li>
+                    <li aria-current="page" class="breadcrumb-item active">Products</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-lg-3">
+            <!--
+            *** MENUS AND FILTERS ***
+            _________________________________________________________
+            -->
+            <div class="card sidebar-menu mb-4">
+                <div class="card-header">
+                    <h3 class="h4 card-title">Categories</h3>
+                </div>
+                <div class="card-body">
+                    @if (categoryModels != null)
+                    {
+                        foreach (var category in categoryModels)
+                        {
+
+                            <NavLink class="nav-link" @onclick="@(()=>NavigateToProducts(category.Id))">@category.Name.ToUpper()</NavLink>
+
+                        }
+                    }
+                </div>
+            </div>
+            <!-- *** MENUS AND FILTERS END ***-->
+            <div class="banner"><a href="#"><img src="img/banner.jpg" alt="sales 2014" class="img-fluid"></a></div>
+        </div>
+        @if (productModel != null)
+        {
+            decimal discountPrice = productModel.UnitPrice - (productModel.UnitPrice * ((decimal)productModel.Discount / 100));
+            <div class="col-lg-9 order-1 order-lg-2">
+                <div id="productMain" class="row">
+                    <div class="col-md-6">
+                        <div class="item"> <img src="@productModel.ImgUrl" alt="" class="img-fluid"></div>
+                        <div class="ribbon sale">
+                            <div class="theribbon">SALE</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+                        <!-- /.ribbon-->
+                        <div class="ribbon new">
+                            <div class="theribbon">NEW</div>
+                            <div class="ribbon-background"></div>
+                        </div>
+                        <!-- /.ribbon-->
+                    </div>
+                    <div class="col-md-6">
+                        <div class="box">
+                            <h1 class="text-center">@productModel.Name</h1>
+                            <p class="price">@discountPrice</p>
+                            <p class="text-center buttons"><NavLink @onclick="@(()=>AddToCart(productModel))" class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to cart</NavLink></p>
+                        </div>
+                    </div>
+                </div>
+                <div id="details" class="box">
+                    <p></p>
+                    <h4>Product details</h4>
+                    <p>White lace top, woven, has a round neck, short sleeves, has knitted lining attached</p>
+                    <h4>Material &amp; care</h4>
+                    <ul>
+                        <li>Polyester</li>
+                        <li>Machine wash</li>
+                    </ul>
+                    <h4>Size &amp; Fit</h4>
+                    <ul>
+                        <li>Regular fit</li>
+                        <li>The model (height 5'8" and chest 33") is wearing a size S</li>
+                    </ul>
+                    <blockquote>
+                        <p><em>Define style this season with Armani's new range of trendy tops, crafted with intricate details. Create a chic statement look by teaming this lace number with skinny jeans and pumps.</em></p>
+                    </blockquote>
+                    <hr>
+                    <div class="social">
+                        <h4>Show it to your friends</h4>
+                        <p><a href="#" class="external facebook"><i class="fa fa-facebook"></i></a><a href="#" class="external gplus"><i class="fa fa-google-plus"></i></a><a href="#" class="external twitter"><i class="fa fa-twitter"></i></a><a href="#" class="email"><i class="fa fa-envelope"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        }
+
+        <!-- /.col-md-9-->
+    </div>
+</div>
+
+
+@functions {
+    private string IdString;
+    [Parameter]
+    public string ProductId { get; set; }
+    ProductModel productModel=new ProductModel();
+    List<CategoryModel> categoryModels;
+    List<BasketModel> basketModels=new List<BasketModel>();
+    protected override async Task OnInitializedAsync()
+    {
+        categoryModels = await CategoryService.GetCategories();
+    }
+
+    protected override async Task OnParametersSetAsync()
+    {
+        // copy par value somewhere
+        IdString = ProductId?.ToString() ?? "0";
+
+        // rest parm (set to null) by yourself
+        ProductId = null;
+        productModel = await ProductService.GetProductById(Convert.ToInt32(IdString));
+    }
+    void NavigateToProducts(int categoryId)
+    {
+        NavigationManager.NavigateTo("products/" + categoryId);
+    }
+    async Task AddToCart(ProductModel product)
+    {
+
+        var sessionBasket = await sessionStorage.GetItemAsync<List<BasketModel>>("basket");
+        if (sessionBasket == null)
+        {
+            basketModels.Add(new BasketModel { Product = product, Quantity = 1 });
+        }
+        else
+        {
+            basketModels = sessionBasket;
+            var contains = basketModels.FirstOrDefault(x => x.Product.Id == product.Id);
+
+            if (contains != null)
+            {
+                contains.Quantity++;
+            }
+            else
+            {
+                basketModels.Add(new BasketModel { Product = product, Quantity = 1 });
+            }
+        }
+
+
+        await sessionStorage.SetItemAsync("basket", basketModels);
+    }
+}

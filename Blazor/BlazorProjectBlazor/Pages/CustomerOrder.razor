@@ -1,0 +1,125 @@
+﻿@page "/customerorder/{OrderId:int}"
+@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@inject IOrderService OrderService
+@inject IProductService ProductService
+@attribute [Authorize]
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- breadcrumb-->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li aria-current="page" class="breadcrumb-item"><a href="#">My orders</a></li>
+                    <li aria-current="page" class="breadcrumb-item active">Order # 1735</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-lg-3">
+            <!--
+            *** CUSTOMER MENU ***
+            _________________________________________________________
+            -->
+            <CustomerSection />
+            <!-- /.col-lg-3-->
+            <!-- *** CUSTOMER MENU END ***-->
+        </div>
+        <div id="customer-order" class="col-lg-9">
+            <div class="box">
+                @if (GetOrderDetailByIdResultDto != null)
+                {
+                    <h1>Order #@OrderId</h1>
+                    <p class="lead">Order #@OrderId was placed on <strong>@GetOrderDetailByIdResultDto.CreationTime</strong> and is currently <strong>@GetOrderDetailByIdResultDto.Status</strong>.</p>
+                    <p class="text-muted">If you have any questions, please feel free to <NavLink href="contact">contact us</NavLink>, our customer service center is working for you 24/7.</p>
+                    <hr>
+                    <div class="table-responsive mb-4">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th colspan="2">Product</th>
+                                    <th>Quantity</th>
+                                    <th>Unit price</th>
+                                    <th>Discount</th>
+                                    <th>Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var product in productModels)
+                                {
+                                    decimal discountPrice = product.UnitPrice - (product.UnitPrice * ((decimal)product.Discount / 100));
+                                    <tr>
+                                        <td><a href="#"><img src="@product.ImgUrl" alt="@product.Name"></a></td>
+                                        <td><a href="#">@product.Name</a></td>
+                                        <td>@GetOrderDetailByIdResultDto.OrderProducts.FirstOrDefault(x => x.ProductId == product.Id).Quantity</td>
+                                        <td>$@product.UnitPrice</td>
+                                        <td>@product.Discount</td>
+                                        <td>$@(discountPrice * (decimal)GetOrderDetailByIdResultDto.OrderProducts.FirstOrDefault(x => x.ProductId == product.Id).Quantity)</td>
+                                    </tr>
+
+                                }
+
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <th colspan="5" class="text-right">Order subtotal</th>
+                                    <th>$@SubTotal</th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5" class="text-right">Shipping and handling</th>
+                                    <th>$10.00</th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5" class="text-right">Tax</th>
+                                    <th>$0.00</th>
+                                </tr>
+                                <tr>
+                                    <th colspan="5" class="text-right">Total</th>
+                                    <th>$@GetOrderDetailByIdResultDto.Total</th>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                    <!-- /.table-responsive-->
+                    <div class="row addresses">
+                        <div class="col-lg-6">
+                            <h2>Invoice address</h2>
+                            <p>@GetOrderDetailByIdResultDto.FullName<br>@GetOrderDetailByIdResultDto.Address <br>@GetOrderDetailByIdResultDto.CountryName </p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Shipping address</h2>
+                            <p>@GetOrderDetailByIdResultDto.FullName<br>@GetOrderDetailByIdResultDto.Address <br>@GetOrderDetailByIdResultDto.CountryName</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Payment Type</h2>
+                            <p>@GetOrderDetailByIdResultDto.PaymentName</p>
+                        </div>
+                        <div class="col-lg-6">
+                            <h2>Cargo company</h2>
+                            <p>@GetOrderDetailByIdResultDto.CargoName</p>
+                        </div>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@code {
+    [Parameter]
+    public int OrderId { get; set; }
+    public decimal SubTotal { get; set; }
+    GetOrderDetailByIdResultDto GetOrderDetailByIdResultDto = new GetOrderDetailByIdResultDto();
+    List<ProductModel> productModels = new List<ProductModel>();
+    protected override async Task OnInitializedAsync()
+    {
+        GetOrderDetailByIdResultDto = await OrderService.GetOrderDetailById(OrderId);
+        foreach (var item in GetOrderDetailByIdResultDto.OrderProducts)
+        {
+            productModels.Add(await ProductService.GetProductById(item.ProductId));
+        }
+        SubTotal = GetOrderDetailByIdResultDto.Total - 10;
+    }
+}

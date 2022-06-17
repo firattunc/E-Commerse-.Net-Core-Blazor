@@ -1,0 +1,85 @@
+﻿@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@inject ICategoryService CategoryService
+@inject IProductService ProductService
+@inject NavigationManager NavigationManager
+@using MatBlazor;
+
+<nav class="navbar navbar-expand-lg">
+    <div class="container">
+        <NavLink href="/" Match="NavLinkMatch.All" class="navbar-brand home"><img src="img/logo.png" alt="Obaju logo" class="d-none d-md-inline-block"><img src="img/logo-small.png" alt="Obaju logo" class="d-inline-block d-md-none"><span class="sr-only">Obaju - go to homepage</span></NavLink>
+        <div class="navbar-buttons">
+            <button type="button" data-toggle="collapse" data-target="#navigation" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle navigation</span><i class="fa fa-align-justify"></i></button>
+
+            <button type="button" data-toggle="collapse" data-target="#search" class="btn btn-outline-secondary navbar-toggler"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></button>
+            
+            <a href="basket.html" class="btn btn-outline-secondary navbar-toggler"><i class="fa fa-shopping-cart"></i></a>
+        </div>
+        <div id="navigation" class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Home</NavLink></li>
+                @if (categoryModels != null)
+                {
+                    foreach (var category in categoryModels)
+                    {
+                        <li class="nav-item"><NavLink class="nav-link" href="" @onclick="@(()=>NavigateToProducts(category.Id))">@category.Name</NavLink></li>
+                    }
+                }
+                <li class="nav-item"><NavLink class="nav-link" href="" @onclick="NavigateToCustomerOrders">Hesabım</NavLink></li>
+            </ul>
+
+            <div class="navbar-buttons d-flex justify-content-end">
+                <!-- /.nav-collapse-->
+                
+                <div id="search-not-mobile" class="navbar-collapse collapse"></div><a data-toggle="collapse" href="#search" class="btn navbar-btn btn-primary d-none d-lg-inline-block"><span class="sr-only">Toggle search</span><i class="fa fa-search"></i></a>
+                <div id="basket-overview" class="navbar-collapse collapse d-none d-lg-block"><NavLink href="/basket" class="btn btn-primary navbar-btn"><i class="fa fa-shopping-cart"></i><span>3 items in cart</span></NavLink></div>
+            </div>
+        </div>
+    </div>
+</nav>
+<div id="search" class="collapse">
+    <div class="container">
+        <form role="search" class="ml-auto">
+            <div class="input-group">
+                <MatAutocompleteList TItem="ProductModel" CustomStringSelector="@(x=>x.Name)" type="text" placeholder="Search" class="form-control" Items="@products" @bind-Value="@product">
+                    <div style="display: flex; flex-direction: row; width: 100%;">
+                        <div style="flex: 1;">@product.Name</div>                        
+                    </div>
+                </MatAutocompleteList>                
+
+                    <NavLink href="" class="btn btn-primary"@onclick="@NavigateToProductDetail" ><i class="fa fa-search"></i></NavLink>
+
+            </div>
+        </form>
+    </div>
+</div>
+@code {
+    List<CategoryModel> categoryModels;
+    List<ProductModel> products;
+    ProductModel product;
+    protected override async Task OnInitializedAsync()
+    {
+        product = null;
+        categoryModels = await CategoryService.GetCategories();
+        products = await ProductService.GetAll();
+    }
+    void NavigateToProductDetail()
+    {
+        if (product!=null)
+        {
+            var id = product.Id;
+            product = null;
+            NavigationManager.NavigateTo("/productdetail/" + id);
+        }
+
+    }
+    void NavigateToProducts(int categoryId)
+    {
+        NavigationManager.NavigateTo("/products/" + categoryId);
+    }
+    void NavigateToCustomerOrders()
+    {
+        NavigationManager.NavigateTo("/customerorders");
+    }
+
+}

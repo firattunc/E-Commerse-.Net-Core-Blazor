@@ -1,0 +1,173 @@
+﻿@page "/customeraccount"
+@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@using BlazorProjectBlazor.Models.AccountUpdate
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject Blazored.LocalStorage.ILocalStorageService localStorage
+@inject IUserAddressService UserAddressService
+@inject IUserService UserService
+@attribute [Authorize]
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- breadcrumb-->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="#">Home</a></li>
+                    <li aria-current="page" class="breadcrumb-item"><a href="#">My orders</a></li>
+                    <li aria-current="page" class="breadcrumb-item active">Order # 1735</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-lg-3">
+            <!--
+            *** CUSTOMER MENU ***
+            _________________________________________________________
+            -->
+            <CustomerSection />
+            <!-- /.col-lg-3-->
+            <!-- *** CUSTOMER MENU END ***-->
+        </div>
+        <div class="col-lg-9">
+            <div class="box">
+                <h1>My account</h1>
+                <p class="lead">Change your personal details or your password here.</p>
+                <p class="text-muted">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <h3>Change password</h3>
+                <EditForm Model="changePasswordDto" OnValidSubmit="SaveNewPassword">
+                    <DataAnnotationsValidator/>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="password_old">Old password</label>
+                                <InputText type="password" Class="form-control" @bind-Value="@changePasswordDto.CurrentPassword" />
+                                <ValidationMessage For="@(()=>changePasswordDto.CurrentPassword)" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="password_1">New password</label>
+                                <InputText type="password" Class="form-control" @bind-Value="@changePasswordDto.NewPassword" />
+                                <ValidationMessage For="@(()=>changePasswordDto.NewPassword)" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row-->
+                    <div class="col-md-12 text-center">
+                        <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save new password</button>
+                    </div>
+                </EditForm>
+                <h3 class="mt-5">Personal details</h3>
+                <EditForm Model="UserModel" OnValidSubmit="SaveChanges">
+                    <DataAnnotationsValidator />
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="firstname">Firstname</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.Name" />
+                                <ValidationMessage For="@(()=>UserModel.Name)" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="lastname">Lastname</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.Surname" />
+                                <ValidationMessage For="@(()=>UserModel.Surname)" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row-->
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="company">UserName</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.UserName" />
+                                <ValidationMessage For="@(()=>UserModel.UserName)" />
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="street">EmailAddress</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.EmailAddress" />
+                                <ValidationMessage For="@(()=>UserModel.EmailAddress)" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="street">PhoneNumber</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.PhoneNumber" />
+                                <ValidationMessage For="@(()=>UserModel.PhoneNumber)" />
+                            </div>
+                        </div>
+                    </div>
+                    <!-- /.row-->
+                    <div class="row">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="city">Address</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.UserAddress.Address" />
+                                <ValidationMessage For="@(()=>UserModel.UserAddress.Address)" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="zip">City</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.UserAddress.City" />
+                                <ValidationMessage For="@(()=>UserModel.UserAddress.City)" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="state">State</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.UserAddress.State" />
+                                <ValidationMessage For="@(()=>UserModel.UserAddress.State)" />
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="form-group">
+                                <label for="country">Country</label>
+                                <InputText Class="form-control" @bind-Value="@UserModel.UserAddress.Country" />
+                                <ValidationMessage For="@(()=>UserModel.UserAddress.Country)" />
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center">
+                            <button type="submit" class="btn btn-primary"><i class="fa fa-save"></i> Save changes</button>
+                        </div>
+                    </div>
+                </EditForm>
+            </div>
+        </div>
+    </div>
+</div>
+@code{
+
+    UserModel UserModel=new UserModel();
+    ChangePasswordDto changePasswordDto=new ChangePasswordDto();
+
+    protected async override Task OnInitializedAsync()
+    {
+        UserModel = await localStorage.GetItemAsync<UserModel>("loginUser");
+        UserModel.UserAddress = await UserAddressService.GetUserAddressByUserId(UserModel.Id);
+    }
+    public async Task SaveNewPassword()
+    {
+        await UserService.ChangePassword(changePasswordDto);
+        changePasswordDto = new ChangePasswordDto();
+        StateHasChanged();
+    }
+    private async Task SaveChanges()
+    {
+        var resultUpdateUser= await UserService.UpdateUser(UserModel);
+        await UserAddressService.UpdateUserAddress(UserModel.UserAddress);
+        if (resultUpdateUser.EmailAddress!=null)
+        {
+            await localStorage.SetItemAsync("loginUser",resultUpdateUser);
+            StateHasChanged();
+        }                
+    }
+
+}

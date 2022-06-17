@@ -1,0 +1,349 @@
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.exe
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csprojAssemblyReference.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.Manifest.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorComponent.input.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Basket.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Category.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout2.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout3.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout4.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerAccount.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrder.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrders.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Faq.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductDetail.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Products.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\CustomerSection.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfo.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.input.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.output.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorCoreGenerate.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csproj.CopyComplete
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.deps.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.dev.json
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.JS.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorProjectBlazor.dll
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Basket.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Category.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout2.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout3.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout4.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerAccount.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrder.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrders.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Faq.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\ProductDetail.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Products.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\CustomerSection.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\konto\source\repos\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.LocalStorage.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.exe
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.deps.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.dev.json
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.JS.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.LocalStorage.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csprojAssemblyReference.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.Manifest.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorComponent.input.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Basket.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout2.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout3.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout4.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerAccount.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrder.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrders.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Faq.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductDetail.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Products.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\CustomerSection.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.input.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.output.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorCoreGenerate.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfo.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csproj.CopyComplete
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\MatBlazor.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorProjectBlazor.dll
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Basket.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout2.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout3.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout4.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerAccount.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrder.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrders.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Faq.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\ProductDetail.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Products.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\CustomerSection.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\konto\Desktop\Kod Dökümanları\BlazorProject.Blazor\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.exe
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.deps.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.JS.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.LocalStorage.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\MatBlazor.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.Manifest.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorComponent.input.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Basket.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout2.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout3.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout4.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerAccount.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrder.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrders.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Faq.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductDetail.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Products.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\CustomerSection.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.input.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.output.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorCoreGenerate.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Basket.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout2.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout3.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout4.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerAccount.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrder.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrders.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Faq.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\ProductDetail.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Products.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\CustomerSection.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cs
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csproj.CopyComplete
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\Kod Dökümanları\BlazorProjectBlazorFrontend-master\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.exe
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.deps.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.runtimeconfig.dev.json
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.JS.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazor.Extensions.Storage.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.LocalStorage.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Blazored.SessionStorage.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\MatBlazor.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authorization.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Blazor.HttpClient.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Forms.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Components.Web.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Metadata.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Microsoft.JSInterop.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csprojAssemblyReference.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.Manifest.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\staticwebassets\BlazorProjectBlazor.StaticWebAssets.xml
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorComponent.input.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\App.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Basket.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout2.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout3.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Checkout4.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Contact.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerAccount.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrder.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\CustomerOrders.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Error.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Faq.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Index.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\ProductDetail.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Products.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Pages\Register.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\CustomerSection.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\MainLayout.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\Shared\NavMenu.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\_Imports.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\RazorDeclaration\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.input.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.TagHelpers.output.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorCoreGenerate.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\App.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Basket.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout2.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout3.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Checkout4.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Contact.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerAccount.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrder.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\CustomerOrders.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Error.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Faq.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Index.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\ProductDetail.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Products.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\Register.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\CustomerSection.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\MainLayout.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Shared\NavMenu.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\_Imports.razor.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\Razor\Pages\_Host.cshtml.g.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorAssemblyInfo.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfoInputs.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.AssemblyInfo.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cache
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.RazorTargetAssemblyInfo.cs
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.Views.pdb
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.csproj.CopyComplete
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.dll
+C:\Users\lenovo\Desktop\BlazorProjectBlazorFrontend\BlazorProjectBlazor\obj\Debug\netcoreapp3.1\BlazorProjectBlazor.pdb

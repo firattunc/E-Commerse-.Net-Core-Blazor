@@ -1,0 +1,161 @@
+﻿@page  "/basket"
+@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject NavigationManager NavigationManager
+@inject IProductService  ProductService
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- breadcrumb-->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><NavLink href="/">Home</NavLink></li>
+                    <li aria-current="page" class="breadcrumb-item active">Shopping cart</li>
+                </ol>
+            </nav>
+        </div>
+        <div id="basket" class="col-lg-9">
+            <div class="box">
+                <form method="post" action="checkout1.html">
+                    <h1>Shopping cart</h1>
+                    <p class="text-muted">You currently have 3 item(s) in your cart.</p>
+                    <div class="table-responsive">
+                        @if (basketModels != null)
+                        {
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th colspan="2">Product</th>
+                                        <th>Quantity</th>
+                                        <th>Unit price</th>
+                                        <th>Discount</th>
+                                        <th colspan="2">Total</th>
+                                    </tr>
+                                </thead>
+
+
+                                <tbody>
+                                    @foreach (var basketModel in basketModels)
+                                    {
+
+                                        decimal discountPrice = basketModel.Product.UnitPrice - (basketModel.Product.UnitPrice * ((decimal)basketModel.Product.Discount / 100));
+                                        if (SubTotal == 0)
+                                        {
+                                            SubTotal += discountPrice * (decimal)basketModel.Quantity;
+                                        }
+
+                                        <tr>
+
+
+                                            <td><a href="#"><img src="@basketModel.Product.ImgUrl" alt="@basketModel.Product.Name"></a></td>
+                                            <td><a href="#">@basketModel.Product.Name</a></td>
+                                            <td>
+                                                <input @onchange="(value=>UpdateProduct(new BasketModel { Product=basketModel.Product,Quantity=Convert.ToInt32(value.Value)}))" value="@basketModel.Quantity" type="number" min="1" class="form-control" />
+                                            </td>
+                                            <td>@basketModel.Product.UnitPrice</td>
+                                            <td>@basketModel.Product.Discount</td>
+                                            <td>@discountPrice</td>
+                                            <td><a href="#"><i class="fa fa-trash-o"></i></a></td>
+
+                                        </tr>
+
+                                    }
+                                </tbody>
+
+                                <tfoot>
+                                    <tr>
+                                        <th colspan="5">Total</th>
+                                        <th colspan="2">$@SubTotal </th>
+                                    </tr>
+                                </tfoot>
+                            </table>
+                            Total = SubTotal + 10;
+
+                        }
+                    </div>
+                    <!-- /.table-responsive-->
+                    <div class="box-footer d-flex justify-content-between flex-column flex-lg-row">
+                        <div class="left"><NavLink href="category" class="btn btn-outline-secondary"><i class="fa fa-chevron-left"></i> Continue shopping</NavLink></div>
+                        <div class="right">                            
+                            <NavLink href="checkout" class="btn btn-primary">Proceed to checkout <i class="fa fa-chevron-right"></i></NavLink>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <!-- /.col-lg-9-->
+        <div class="col-lg-3">
+            <div id="order-summary" class="box">
+                <div class="box-header">
+                    <h3 class="mb-0">Order summary</h3>
+                </div>
+                <p class="text-muted">Shipping and additional costs are calculated based on the values you have entered.</p>
+                <div class="table-responsive">
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td>Order subtotal</td>
+                                <th>@SubTotal</th>
+                            </tr>
+                            <tr>
+                                <td>Cargo</td>
+                                <th>$10.00</th>
+                            </tr>
+                            <tr class="total">
+                                <td>Total</td>
+                                <th>@Total</th>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+        </div>
+        <!-- /.col-md-3-->
+    </div>
+</div>
+@code {
+
+    public decimal SubTotal { get; set; } = 0;
+    public decimal Total { get; set; }
+    List<BasketModel> basketModels=new List<BasketModel>();
+    protected override async Task OnInitializedAsync()
+    {
+        var basketSessionResult = await sessionStorage.GetItemAsync<List<BasketModel>>("basket");
+        if (basketSessionResult!=null)
+        {
+            basketModels = basketSessionResult;
+        }
+        var resultTotal = TotalHesapla();
+        await sessionStorage.SetItemAsync("subtotal", resultTotal);
+        SubTotal = resultTotal;
+    }
+    async Task UpdateCart()
+    {
+        await sessionStorage.SetItemAsync("basket", basketModels);
+        await sessionStorage.SetItemAsync("subtotal", SubTotal);
+    }
+
+    public async Task UpdateProduct(BasketModel basketModel)
+    {
+        basketModels.Find(x => x.Product.Id == basketModel.Product.Id).Quantity = basketModel.Quantity;
+        var resultTotal = TotalHesapla();
+        SubTotal = resultTotal;
+        await sessionStorage.SetItemAsync("basket", basketModels);
+        await sessionStorage.SetItemAsync("subtotal", SubTotal);
+    }
+    public decimal TotalHesapla()
+    {
+        decimal result = 0;
+        foreach (var item in basketModels)
+        {
+
+            decimal discountPrice = item.Product.UnitPrice - (item.Product.UnitPrice * ((decimal)item.Product.Discount / 100));
+            result += discountPrice * (Convert.ToDecimal(item.Quantity));
+        }
+        return result;
+    }
+
+}

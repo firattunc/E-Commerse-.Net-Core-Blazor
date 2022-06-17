@@ -1,0 +1,267 @@
+﻿@page  "/products/{categoryid:int}"
+@page  "/products"
+
+@using Northwİnd.Blazor.Models
+@using Northwİnd.Blazor.Services.Abstract
+@inject ICategoryService CategoryService
+@inject IProductService  ProductService
+@inject IColourService  ColourService
+@inject NavigationManager NavigationManager
+@inject Blazored.SessionStorage.ISessionStorageService sessionStorage
+@inject IJSRuntime JSRuntime
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <!-- breadcrumb-->
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><NavLink href="/">Home</NavLink></li>
+                    <li aria-current="page" class="breadcrumb-item active">Products</li>
+                </ol>
+            </nav>
+        </div>
+        <div class="col-lg-3">
+            <!--
+            *** MENUS AND FILTERS ***
+            _________________________________________________________
+            -->
+            <div class="card sidebar-menu mb-4">
+                <div class="card-header">
+                    <h3 class="h4 card-title">Categories</h3>
+                </div>
+                <div class="card-body">
+                    @if (categoryModels != null)
+                    {
+                        foreach (var category in categoryModels)
+                        {
+
+                            <NavLink href="" class="nav-link" @onclick="@(()=>NavigateToProducts(category.Id))">@category.Name.ToUpper()</NavLink>
+
+                        }
+                    }
+                </div>
+            </div>
+            <div class="card sidebar-menu mb-4">
+                <div class="card-header">
+                    <h3 class="h4 card-title">Colours</h3>
+                </div>
+                <div class="card-body">
+                    <div class="form-group">
+                        @if (colours != null)
+                        {
+                            @foreach (var colour in colours)
+                            {
+                                <div class="checkbox">
+                                    <label>
+                                        <input @onchange="@(()=>AddColoursFilterList(colour.Id))" type="checkbox"><span class="colour white"></span> @colour.Name
+                                    </label>
+                                </div>
+                            }
+                        }
+
+                    </div>
+                    <button type="button" @onclick="@FilterColour" class="btn btn-default btn-sm btn-primary"><i class="fa fa-pencil"></i> Apply</button>
+                </div>
+            </div>
+            <!-- *** MENUS AND FILTERS END ***-->
+            <div class="banner"><a href="#"><img src="img/banner.jpg" alt="sales 2014" class="img-fluid"></a></div>
+        </div>
+        <div class="col-lg-9">
+            <div class="box info-bar">
+                <div class="row">
+                    <div class="col-md-12 col-lg-7 products-number-sort">
+                        <form class="form-inline d-block d-lg-flex justify-content-between flex-column flex-md-row">
+                            <div class="products-sort-by mt-2 mt-lg-0">
+                                <strong>Sort by</strong>
+                                <select @onchange="@SortBy" Class="form-control">
+                                    <option>Lütfen seçiniz</option>
+                                    <option>Fiyat</option>
+                                    <option>Ad</option>
+                                </select>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="row products">
+                @if (productModels != null)
+                {
+
+                    foreach (var product in productModels)
+                    {
+                        decimal discountPrice = product.UnitPrice - (product.UnitPrice * ((decimal)product.Discount / 100));
+                        <div class="col-lg-4 col-md-6">
+                            <div class="product">
+                                <div class="flip-container">
+                                    <div class="flipper">
+                                        <div class="front"><a @onclick="@(()=>NavigateToProductDetail(product.Id))"><img src="@product.ImgUrl" alt="" class="img-fluid"></a></div>
+                                    </div>
+                                </div><a class="invisible" @onclick="@(()=>NavigateToProductDetail(product.Id))"><img src="@product.ImgUrl" alt="" class="img-fluid"></a>
+                                <div class="text">
+                                    <h3><a @onclick="@(()=>NavigateToProductDetail(product.Id))">@product.Name</a></h3>
+                                    <p class="price">
+                                        <del>$@product.UnitPrice</del>$@discountPrice
+                                    </p>
+                                    <p class="buttons">
+                                        <NavLink href="" @onclick="@(()=>NavigateToProductDetail(product.Id))" class="btn btn-outline-secondary">View detail</NavLink>
+                                        <NavLink  @onclick="@(()=>AddToCart(product))" class="btn btn-primary"><i class="fa fa-shopping-cart"></i>Add to cart</NavLink>
+                                    </p>
+                                </div>
+                                <!-- /.text-->
+                                <div class="ribbon sale">
+                                    <div class="theribbon">SALE</div>
+                                    <div class="ribbon-background"></div>
+                                </div>
+                                <!-- /.ribbon-->
+                                <div class="ribbon new">
+                                    <div class="theribbon">NEW</div>
+                                    <div class="ribbon-background"></div>
+                                </div>
+                                <!-- /.ribbon-->
+                                <div class="ribbon gift">
+                                    <div class="theribbon">GIFT</div>
+                                    <div class="ribbon-background"></div>
+                                </div>
+                                <!-- /.ribbon-->
+                            </div>
+                            <!-- /.product            -->
+                        </div>
+
+                    }
+                }
+
+
+                <!-- /.products-->
+            </div>
+            <div class="pages">
+                <nav aria-label="Page navigation example" class="d-flex justify-content-center">
+                    <ul class="pagination">
+                        <MatPaginator Length="nonFilteredProductModels.Count" PageSize="@pageSize" Page="@OnPage"></MatPaginator>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <!-- /.col-lg-9-->
+    </div>
+</div>
+@code {
+    int pageSize = 5;
+    int pageIndex = 0;
+    [Parameter]
+    public int CategoryId { get; set; }
+
+    List<ProductModel> productModels;
+    List<ProductModel> nonFilteredProductModels = new List<ProductModel>();
+    List<ColourModel> colours;
+    List<CategoryModel> categoryModels;
+    List<BasketModel> basketModels = new List<BasketModel>();
+    List<int> coloursFilters = new List<int>();
+
+    protected override async Task OnInitializedAsync()
+    {
+        categoryModels = await CategoryService.GetCategories();
+        colours = await ColourService.GetAll();
+        if (CategoryId != 0)
+        {
+            nonFilteredProductModels = await ProductService.GetProductsById(CategoryId);
+            FilterProductModelByPaginator();
+        }
+
+    }
+    protected override async Task OnParametersSetAsync()
+    {
+        if (CategoryId != 0)
+        {
+            nonFilteredProductModels = await ProductService.GetProductsById(CategoryId);
+            FilterProductModelByPaginator();
+        }
+    }
+    void FilterProductModelByPaginator()
+    {
+        productModels = nonFilteredProductModels;
+        if (pageIndex == 0)
+        {
+            productModels = nonFilteredProductModels.Take(pageSize).ToList();
+        }
+        else
+        {
+            productModels = nonFilteredProductModels.Skip(pageIndex * pageSize).ToList();
+        }
+    }
+    void OnPage(MatPaginatorPageEvent e)
+    {
+        pageIndex = e.PageIndex;
+        pageSize = e.PageSize;
+        FilterProductModelByPaginator();
+    }
+    void SortBy(ChangeEventArgs e)
+    {
+        var val = e.Value.ToString();
+        if (val == "")
+            productModels = productModels.OrderBy(x => x.Id).ToList();
+        else if (val == "Fiyat")
+            productModels = productModels.OrderBy(x => x.UnitPrice - (x.UnitPrice * ((decimal)x.Discount / 100))).ToList();
+        else if (val == "Ad")
+            productModels = productModels.OrderBy(x => x.Name).ToList();
+
+        StateHasChanged();
+    }
+    void AddColoursFilterList(int colourId)
+    {
+        if (coloursFilters.Contains(colourId))
+            coloursFilters.Remove(colourId);
+        else
+            coloursFilters.Add(colourId);
+
+    }
+    void FilterColour()
+    {
+        FilterProductModelByPaginator();
+        if (coloursFilters.Count != 0)
+        {
+            List<ProductModel> productModelColour = new List<ProductModel>();
+            foreach (var colourId in coloursFilters)
+            {
+                productModelColour.AddRange(productModels.Where(x => x.ColourId == colourId).ToList());
+            }
+            productModels = productModelColour;
+            StateHasChanged();
+        }
+
+    }
+    void NavigateToProducts(int categoryId)
+    {
+        NavigationManager.NavigateTo("products/" + categoryId);
+    }
+    void NavigateToProductDetail(int productId)
+    {
+        NavigationManager.NavigateTo("/productdetail/" + productId);
+    }
+    async Task AddToCart(ProductModel product)
+    {
+
+        var sessionBasket = await sessionStorage.GetItemAsync<List<BasketModel>>("basket");
+        if (sessionBasket == null)
+        {
+            basketModels.Add(new BasketModel { Product = product, Quantity = 1 });
+        }
+        else
+        {
+            basketModels = sessionBasket;
+            var contains = basketModels.FirstOrDefault(x => x.Product.Id == product.Id);
+
+            if (contains != null)
+            {
+                contains.Quantity++;
+            }
+            else
+            {
+                basketModels.Add(new BasketModel { Product = product, Quantity = 1 });
+            }
+        }
+
+
+        await sessionStorage.SetItemAsync("basket", basketModels);
+    }
+}
